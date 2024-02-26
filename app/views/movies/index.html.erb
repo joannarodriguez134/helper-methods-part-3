@@ -12,6 +12,6 @@
 
 <table>
   <% @movies.each do |movie| %>
-      <%= render partial: "shared/movie_card", locals: { movie: movie } %>
+      <%= render partial: "movies/movie", locals: { movie: movie } %>
   <% end %>
 </table>
